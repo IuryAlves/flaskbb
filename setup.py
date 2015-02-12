@@ -23,7 +23,7 @@ Resources
 * `issues <https://github.com/sh4nks/flaskbb/issues>`_
 
 """
-from setuptools import setup
+from setuptools import setup,find_packages
 
 setup(
     name='FlaskBB',
@@ -34,7 +34,7 @@ setup(
     author_email='sh4nks7@gmail.com',
     description='A forum software written with flask',
     long_description=__doc__,
-    package_dir = {'': 'flaskbb'},
+    packages = find_packages('flaskbb'),
     zip_safe=False,
     platforms='any',
     install_requires=[
