@@ -34,6 +34,7 @@ setup(
     author_email='sh4nks7@gmail.com',
     description='A forum software written with flask',
     long_description=__doc__,
+    package_dir = {'': 'flaskbb'},
     packages=['flaskbb'],
     zip_safe=False,
     platforms='any',
