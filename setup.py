@@ -35,7 +35,6 @@ setup(
     description='A forum software written with flask',
     long_description=__doc__,
     package_dir = {'': 'flaskbb'},
-    packages=['flaskbb'],
     zip_safe=False,
     platforms='any',
     install_requires=[
