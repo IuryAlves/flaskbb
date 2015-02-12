@@ -34,7 +34,7 @@ setup(
     author_email='sh4nks7@gmail.com',
     description='A forum software written with flask',
     long_description=__doc__,
-    packages=['flaskbb', 'flaskbb.forum', 'flaskbb.auth', 'flaskbb.configs', 'flaskbb.fixtures'
+    packages=['flaskbb', 'flaskbb.forum', 'flaskbb.auth', 'flaskbb.configs', 'flaskbb.fixtures',
     					'flaskbb.management', 'flaskbb.plugins', 'flaskbb.user',  'flaskbb.utils'],
     include_package_data=True,
     zip_safe=False,
